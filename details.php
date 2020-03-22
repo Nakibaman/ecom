@@ -2,7 +2,6 @@
 	
 	<?php include 'inc/topnav.php'; ?>
 	
-	<div style="height: 50px;"></div>
 	
 
 
@@ -21,7 +20,6 @@
 
 				<?php  
 	            	
-					echo "See!!!!! Remote working works !!!!!";
 	            	if (!isset($_GET['product_id']) && !isset($_GET['add'])) {
 	            		//header('location: index.php');
 	            	}else{
